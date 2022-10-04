@@ -40,6 +40,7 @@ namespace Pradhyumna_Movies_Bazzar
 
         public Customer(string firstname,string lastname,string age,string gender,string email,string username,string password):base(firstname,lastname,age,email,password,gender){
             this.CustomerID = CustomerID;
+            // The base class gets the variables passed in the user class. In this way, this can help to maintain code. 
          
 
 
